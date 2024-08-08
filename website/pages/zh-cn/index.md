@@ -32,6 +32,7 @@ header:
     text: "Royal Cuisine 御食坊"
     size: 16
     color: ""
+  showTextAfterLogoOnMobile: false
   bgColor: "#ffffff"
   bgOpacity: "1" # 0~1
   menuTextColor: "#000000"
