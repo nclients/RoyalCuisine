@@ -333,7 +333,7 @@ footer:
     metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery." 
     keywords: ""
     img: ""
-    thisPageUrl: ""
+    thisPageUrl: "https://www.royalcuisine-order.com/"
     locale: "en_US" # zh_TW | zh_CN
 ---
 <!-- hello world -->
