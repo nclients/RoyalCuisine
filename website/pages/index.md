@@ -11,7 +11,7 @@ secondaryColorScheme: "light"
 cuid: ""
 ruid: ""
 orderOnlineLink: "https://www.bestfoodtodayus.com/ordering/restaurant/menu?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb"
-tableReservationLink: "https://www.bestfoodtodayus.com/ordering/restaurant/menu/reservation?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb&reservation=true&client_is_mobile=true"
+tableReservationLink: ""
 tel: "408-777-8989"
 
 # banner:
@@ -27,9 +27,10 @@ tel: "408-777-8989"
 
 # header
 header:
-  logoSize: 45
+  logoSize: 55
+  logoSizeOnMobile: 40
   textAfterLogo: 
-    text: "Royal Cuisine 御食坊"
+    text: ""
     size: 16
     color: ""
   showTextAfterLogoOnMobile: false
@@ -46,19 +47,19 @@ header:
   orderOnlineBtnInsteadText: ""
   addTableReservationBtn: false
   tableReservationBtnInsteadText: ""
-  addTelBtn: false
+  addTelBtn: true
   telTextColor: "#000000"
 
   otherBtn1InsteadText: "Online Order"
   otherBtn1Href: "https://www.bestfoodtodayus.com/ordering/restaurant/menu?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb"
-  otherBtn2InsteadText: "Reservation"
-  otherBtn2Href: "https://www.bestfoodtodayus.com/ordering/restaurant/menu/reservation?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb&reservation=true&client_is_mobile=true"
+  otherBtn2InsteadText: ""
+  otherBtn2Href: ""
 
 sections:
 # hero
   - type: "hero" 
     id: ""
-    height: "80" # Conditionally use only when sectionType is imgBg
+    height: "100" # Conditionally use only when sectionType is imgBg
     sectionType: "imgBg" # video | imgWithText | imgBg
     bgVideoType: "gjw" # youtube | vimeo | gjw
     bgVideoId: "1gov6sj92av4Zb9OI9K1kKJat1rv1c"
@@ -66,10 +67,11 @@ sections:
     bgColor: "#000000"
     bgOpacity: "0.5" # 0~1
     title: 
-      - "Royal Cuisine 御食坊"
+      - "Royal Cuisine"
+      - "御食坊"
     titleColor: "#ffffff"
     description: 
-      - "Welcome to Royal Cuisine! We serves authentic Chinese cuisine. Kelly has more than 20 years of experience running a variety of restaurants across the Bay Area. She is recognized with her Sichuan Cusine and Northeastern Cuisine. Royal Cuisine is a combination of both."
+      - "Offering authentic Sichuan and Northeastern Chinese cuisine."
     descriptionColor: "#ffffff"
     # title2: 
     #   - ""
@@ -83,10 +85,10 @@ sections:
     addTableReservationBtn: false
     tableReservationBtnInsteadText: ""
 
-    btn1Text: ""
-    btn1Href: "" 
-    btn2Text: "" 
-    btn2Href: "" 
+    btn1Text: "See Menu & Order"
+    btn1Href: "https://www.bestfoodtodayus.com/ordering/restaurant/menu?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb" 
+    btn2Text: "Table Reservation" 
+    btn2Href: "https://www.bestfoodtodayus.com/ordering/restaurant/menu/reservation?restaurant_uid=314fa88b-c585-42d0-b4f9-fea6871d00cb&reservation=true&client_is_mobile=true" 
 
     bannerImg: "sample.webp"
     imgPosition: "imgLeft" # imgLeft | imgRight
@@ -117,30 +119,13 @@ sections:
     bgColor: ""
     bgOpacity: "" # 0~1
     title: 
-      - "Food At Royal Cuisine 御食坊"
+      - "Food at Royal Cuisine"
+      - "御食坊"
     titleColor: "#000000"
     description: 
       - ""
     descriptionColor: "#333333"
     folderPath: "gallery"
-    showImgName: false # true | false
-    imgNameColor: "#000000"
-    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
-
-# Gallery  - Welcome To Royal Cuisine 御食坊
-  - type: "gallery"
-    id: ""
-    mode: 1 # 1 - 3
-    bgImg: ""
-    bgColor: ""
-    bgOpacity: "" # 0~1
-    title: 
-      - "Welcome To Royal Cuisine 御食坊"
-    titleColor: "#000000"
-    description: 
-      - ""
-    descriptionColor: "#333333"
-    folderPath: "gallery2"
     showImgName: false # true | false
     imgNameColor: "#000000"
     menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
@@ -155,12 +140,28 @@ sections:
       - "About Us"
     titleColor: "#000000"
     description: 
-      - "Welcome to Royal Cuisine! We serves authentic Chinese cuisine. Kelly has more than 20 years of experience running a variety of restaurants across the Bay Area. She is recognized with her Sichuan Cusine and Northeastern Cuisine. Royal Cuisine is a combination of both."
-
+      - "Welcome to Royal Cuisine 御食坊! We serves authentic Chinese cuisine. Kelly has more than 20 years of experience running a variety of restaurants across the Bay Area. She is recognized with her Sichuan Cusine and Northeastern Cuisine. Royal Cuisine 御食坊 is a combination of both."
 
     descriptionColor: ""
 
-
+# Gallery  - Welcome To Royal Cuisine 御食坊
+  - type: "gallery"
+    id: ""
+    mode: 1 # 1 - 3
+    bgImg: ""
+    bgColor: ""
+    bgOpacity: "" # 0~1
+    title: 
+      - "Welcome to Royal Cuisine"
+      - "御食坊"
+    titleColor: "#000000"
+    description: 
+      - ""
+    descriptionColor: "#333333"
+    folderPath: "gallery2"
+    showImgName: false # true | false
+    imgNameColor: "#000000"
+    menuItemImgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
 
 
 # # feature - imgWithText
@@ -261,11 +262,11 @@ sections:
     noMarginTop: true
     id: "contact-us"
     mode: "fullWidth" # full-width | ...
-    url: "https://maps.app.goo.gl/jC8UAF8epGG6xNsb8"
-    iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.1187642640207!2d-122.03625052413788!3d37.31601437210453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb52bfbf34cef%3A0x4dc9f4418eea4275!2z5b6h6aOf5Z2KLeS7pOS6uuS4iueYvueahOehheiwt-S4nOWMl-iPnC_lt53oj5w!5e0!3m2!1szh-CN!2sjp!4v1723099695585!5m2!1szh-CN!2sjp"
+    url: "https://maps.app.goo.gl/bB9zPrdcd7YYUJtv6"
+    iframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.1185841653655!2d-122.03625052385966!3d37.31601863845326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb52bfbf34cef%3A0x4dc9f4418eea4275!2sRoyal%20Cuisine!5e0!3m2!1sen!2sjp!4v1726844096795!5m2!1sen!2sjp"
     addTelBtn: true
     tel: ""
-    telInsteadText: ""
+    telInsteadText: "Tel: 408-777-8989"
     tel2: "" # if there are two phone numbers
     tel2InsteadText: ""
     getDirectionBtnInsteadText: ""
@@ -297,15 +298,16 @@ footer:
 
   openingHoursInsteadText: ""
   openingHours: 
-    - "Monday - Thursday:"
+    - "Monday ~ Thursday"
     - "11:00 AM - 3:00 PM, 4:30 PM - 9:30 PM"
-    - "Friday:"
+    - "Friday"
     - "11:00 AM - 3:00 PM, 4:30 PM - 10:00 PM"
-    - "Saturday - Sunday:"
+    - "Saturday ~ Sunday:"
     - "11:00 AM - 10:00 PM"
   
   isLogo: true
   logoSize: 60
+  logoSizeOnMobile: 45
  
   # menu:
   #   - { text: "Home", link: "/" }
@@ -327,13 +329,20 @@ footer:
 
   acceptedPaymentMethodsInsteadText: ""
   paymentMethod: "visa,amex,cash,mastercard" # alipay,applePay,cash,discover,googlePay,jcb,maestro,mastercard,stripe,unionPay,visa,weChatPay,payPal
+  
+  addressInsteadText: "Address"
+  address: 
+    - address: "10477 S De Anza Blvd, Cupertino, CA 95014"
+      url: "https://maps.app.goo.gl/bB9zPrdcd7YYUJtv6"
 
   # at a minimum, please make sure to include the meta description.
   seo:
+    metaTitle: "Royal Cuisine 御食坊｜San Jose｜Chinese restaurant"
     metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery." 
     keywords: ""
     img: ""
-    thisPageUrl: "https://www.royalcuisine-order.com/"
+    thisPageUrl: "https://royalcuisine-order.com/"
     locale: "en_US" # zh_TW | zh_CN
+    canonicalHref: "https://royalcuisine-order.com/"
 ---
 <!-- hello world -->
