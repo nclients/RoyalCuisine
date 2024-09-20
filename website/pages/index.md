@@ -114,7 +114,7 @@ sections:
 # Gallery  - Menu
   - type: "gallery"
     id: "gallery"
-    mode: 1 # 1 - 3
+    mode: 3 # 1 - 3
     bgImg: ""
     bgColor: ""
     bgOpacity: "" # 0~1
@@ -147,7 +147,7 @@ sections:
 # Gallery  - Welcome To Royal Cuisine 御食坊
   - type: "gallery"
     id: ""
-    mode: 1 # 1 - 3
+    mode: 3 # 1 - 3
     bgImg: ""
     bgColor: ""
     bgOpacity: "" # 0~1
