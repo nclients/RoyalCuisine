@@ -306,7 +306,7 @@ footer:
     - "11:00 AM - 10:00 PM"
   
   isLogo: true
-  logoSize: 60
+  logoSize: 75
   logoSizeOnMobile: 45
  
   # menu:
@@ -336,13 +336,12 @@ footer:
       url: "https://maps.app.goo.gl/bB9zPrdcd7YYUJtv6"
 
   # at a minimum, please make sure to include the meta description.
-  seo:
-    metaTitle: "Royal Cuisine 御食坊｜San Jose｜Chinese restaurant"
-    metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery." 
-    keywords: ""
-    img: ""
-    thisPageUrl: "https://royalcuisine-order.com/"
-    locale: "en_US" # zh_TW | zh_CN
-    canonicalHref: "https://royalcuisine-order.com/"
+seo:
+  metaTitle: "Royal Cuisine 御食坊｜San Jose｜Chinese restaurant"
+  metaDescription: "A Chinese restaurant located at 1312 Saratoga Ave, San Jose, CA, offers Jiangsu and Zhejiang dishes. We offer takeout and delivery." 
+  img: "Royal Cuisine 御食坊01.webp"
+  thisPageUrl: "https://royalcuisine-order.com/"
+  locale: "en_US" # zh_TW | zh_CN
+  canonicalHref: "https://royalcuisine-order.com/"
 ---
 <!-- hello world -->

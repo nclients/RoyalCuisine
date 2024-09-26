@@ -1,9 +1,3 @@
 User-agent: *
-Disallow: /
-Allow: /$
-Allow: /zh-cn/$
-Allow: /gallery/
-Allow: /gallery2/
-Allow: /robots.txt
-Allow: /sitemap.xml
+Disallow: 
 Sitemap: https://royalcuisine-order.com/sitemap.xml

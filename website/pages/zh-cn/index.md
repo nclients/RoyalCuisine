@@ -305,7 +305,7 @@ footer:
     - "11:00 AM - 10:00 PM"
   
   isLogo: true
-  logoSize: 60
+  logoSize: 75
   logoSizeOnMobile: 45
  
   # menu:
@@ -335,13 +335,12 @@ footer:
       url: "https://maps.app.goo.gl/jC8UAF8epGG6xNsb8"
 
   # at a minimum, please make sure to include the meta description.
-  seo:
-    metaTitle: "Royal Cuisine 御食坊｜圣荷西｜中餐厅"
-    metaDescription: "位于加州圣荷西萨拉托加大道1312号的一家中餐厅，提供江苏和浙江菜肴。我们提供外卖和送餐服务。" 
-    keywords: ""
-    img: ""
-    thisPageUrl: "https://royalcuisine-order.com/zh-cn"
-    locale: "zh_CN" # zh_TW | zh_CN
-    canonicalHref: "https://royalcuisine-order.com/zh-cn"
+seo:
+  metaTitle: "Royal Cuisine 御食坊｜圣荷西｜中餐厅"
+  metaDescription: "位于加州圣荷西萨拉托加大道1312号的一家中餐厅，提供江苏和浙江菜肴。我们提供外卖和送餐服务。" 
+  img: "Royal Cuisine 御食坊01.webp"
+  thisPageUrl: "https://royalcuisine-order.com/zh-cn"
+  locale: "zh_CN" # zh_TW | zh_CN
+  canonicalHref: "https://royalcuisine-order.com/zh-cn"
 --- 
 <!-- hello world -->
