@@ -3,8 +3,62 @@
        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" >
     
       <url>
+        <loc>https://royalcuisine-order.com/accessibility</loc>
+        <lastmod>2025-01-01</lastmod>
+        <image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊01.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊01</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊02.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊02</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊03.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊03</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊04.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊04</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊05.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊05</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊06.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊06</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊07.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊07</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊08.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊08</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊09.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊09</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊10.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊10</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊11.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊11</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊12.webp</image:loc>
+          <image:title>Royal Cuisine 御食坊12</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery2/Royal Cuisine 御食坊 (12).webp</image:loc>
+          <image:title>Royal Cuisine 御食坊 (12)</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery2/Royal Cuisine 御食坊 (13).webp</image:loc>
+          <image:title>Royal Cuisine 御食坊 (13)</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery2/Royal Cuisine 御食坊(11).webp</image:loc>
+          <image:title>Royal Cuisine 御食坊(11)</image:title>
+        </image:image><image:image>
+          <image:loc>https://royalcuisine-order.com/gallery2/Royal Cuisine 御食坊(14).webp</image:loc>
+          <image:title>Royal Cuisine 御食坊(14)</image:title>
+        </image:image>
+             
+      </url>
+      <url>
         <loc>https://royalcuisine-order.com/</loc>
-        <lastmod>2024-09-26</lastmod>
+        <lastmod>2025-01-01</lastmod>
         <image:image>
           <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊01.webp</image:loc>
           <image:title>Royal Cuisine 御食坊01</image:title>
@@ -58,7 +112,7 @@
       </url>
       <url>
         <loc>https://royalcuisine-order.com/zh-cn/</loc>
-        <lastmod>2024-09-26</lastmod>
+        <lastmod>2025-01-01</lastmod>
         <image:image>
           <image:loc>https://royalcuisine-order.com/gallery/Royal Cuisine 御食坊01.webp</image:loc>
           <image:title>Royal Cuisine 御食坊01</image:title>
