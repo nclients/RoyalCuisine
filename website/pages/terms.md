@@ -58,7 +58,7 @@ header:
   otherBtn2Href: ""
 
 sections:
-  - type: "accessibility"
+  - type: "terms"
 footer:
   cookie: true
   mode: 1 # 1
