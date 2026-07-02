@@ -3,7 +3,7 @@ layout: "ssg-theme-astro/layouts/main.astro" # This line of code should remain u
 tag: "GTM-5TR7XX4"
 title: "Royal Cuisine 御食坊 - Best Food Today"
 favicon: "favicon.ico"
-logo: "logo.jpg"
+logo: "logo.webp"
 primaryColor: "#633710" # logo color
 secondaryColor: "#ffe22f"
 primaryColorScheme: "dark" # dark | light
